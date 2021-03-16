@@ -1,0 +1,1 @@
+covid-safety-tracker-place-data: node index.js

@@ -5,9 +5,9 @@ const placesRouter = require("./routers/placesRouter")
 const googleApiRouter = require("./routers/googleApi")
 const cors = require("cors")
 const server = express()
-const url = process.env.FRONTEND_URL
 
 require('dotenv').config()
+const url = process.env.FRONTEND_URL
 server.use(helmet())
 server.use(cookieParser())
 server.use(express.json())
